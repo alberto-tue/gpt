@@ -127,7 +127,7 @@
   const send   = document.getElementById('send');
 
   /* ------------------------------------------------------------------
-     JOE'S ANSWERS  (all written by hand — no real AI)
+     JOE'S ANSWERS 
      An answer can be:
        - text only:          "some reply"
        - text AND an image:  { text: "caption", img: "images/foo.png" }
@@ -215,7 +215,7 @@
       "Someday you will leave me like I left my kids."
     ],
     generic:[
-      "Interesting question, pass.",
+      "wanna hear a poop joke?",
       "Io no hablo espanol.",
       "hmh.",
       "ah..mh",
@@ -229,7 +229,7 @@
       "As a great philosopher once said: Counting or not counting gun violence?.",
       "What do you call Clark Kent with diarrhea? Pooperman.",
       "Error 404: my piss jug is overflowing.",
-      "I'll be honest: I make everything up. But with huge confidence.",
+      "I'll be honest: I do not believe in showers.",
       "What do a clown's farts smell like? They smell funny."
     ]
   };
@@ -305,7 +305,7 @@
     userMsg(text); input.value=''; send.classList.remove('on'); respond(text);
   });
 
-  setTimeout(()=>joeMsg("Hi, I'm Joe GPT. The most confident and least reliable AI on the market. Ask me anything, I'll get it wrong regardless."),300);
+  setTimeout(()=>joeMsg("Hi, I'm Joe GPT. Go on, ask me something buddy."),300);
 })();
 </script>
 </body>
